@@ -1,0 +1,1200 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap'); 
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+.auto0{
+  margin: 0 auto !important;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+
+.top{
+  padding-top: 10px !important;
+}
+
+.pink{
+  height:50px;
+} 
+
+.blue{
+  /* height:50px; */
+  padding-left: 15rem;
+  display: flex !important;
+  flex-direction: row !important;
+
+}
+
+a {
+  /* color:rgb(67, 63, 63) !important; */
+  text-decoration: none !important;
+}
+
+.home-left{
+  margin-left: 80px !important;
+}
+
+.navbar{
+  background-color: #fff !important;
+  flex-wrap: nowrap;
+  justify-content:space-between !important;
+}
+
+.nav-style{
+  color:rgb(67, 63, 63) !important;
+  padding-left: 30px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  padding-top: 0px !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+}
+
+.nav-extra{
+  padding-top: 8px !important;
+}
+
+.nav-style:hover{
+  color: #f56036 !important;
+}
+
+.nav-style:active{
+  color: #f56036 !important;
+}
+
+.nav-pills .nav-link.active{
+  color:#fd7e14 !important;
+  background-color: rgb(67, 63, 63) !important;
+  padding: 8px 20px 8px 20px !important ;
+  border-radius: 4px !important;
+  margin-top: -8px !important;
+}
+/* icon */
+.icon-style{
+  color:rgb(67, 63, 63) !important;
+  padding-left: 15px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-style:hover{
+  color:#fd7e14 !important
+}
+
+.lets-play{
+  position: relative;
+}
+
+.fraud{
+  position: absolute;
+  z-index: 1;
+  top:-65px;
+  right:50px;
+  display: flex;
+}
+.counter{
+  margin-top: -35px;
+  margin-left:20px
+}
+
+.dropdown-down{
+  width:100%;
+  background-color: #f56036 !important;
+  
+}
+
+.dropdown .dropdown-menu{
+  line-height: 2;
+  width:42vw;
+  height: auto;
+}
+
+/*--------------------------------- mega menu CSS ARE HERE!!!------------------------------------- */
+
+a.dropdown-toggle{
+  color:rgb(67, 63, 63) !important
+}
+ul{
+  list-style: none;
+  margin-right:50px;
+  font-family: "Open Sans", sans-serif ;
+ 
+}
+h5{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  font-variant: small-caps;
+}
+
+ul :hover{
+  color:#f56036;
+ 
+}
+li{
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: grey;
+}
+li :hover{
+  color:#f56036
+}
+
+/* -------------------------------------------------------------------CAROUSEL CSS ARE HERE!!!------------------------------------------*/
+
+.carousel-caption{
+  right: 10% !important;
+  left:10% !important;
+}
+
+.text-left{
+   height:550px;
+   width:55%;
+   float: left !important;
+   margin-top: 50px;
+}
+
+.carousel-adj{
+   min-height: 200px !important;
+   height:850px;
+   width:100%;
+   min-width: 110%;
+}
+
+.carousel-txt1{
+   letter-spacing: 2px;
+   background-color: #fff;
+   color: #f56036;
+   font-weight: bold !important;
+   font-size: 13px;  
+   padding: 2px 10px;
+   text-align: left ;
+   position: absolute;
+   left:0px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-txt2{
+   font-family: 'Luckiest Guy',sans-serif;
+   font-size: 100px;
+   font-weight: 900;
+   color: #f56036;
+   text-align: left;
+}
+
+.carousel-txt3{
+  color:rgb(62, 58, 58) !important;
+}
+
+.carousel-txt4{
+   color:grey;
+   font-size: 18px;
+   text-align: left;
+   padding-bottom: 50px;
+}
+
+.carousel-control-prev-icon{
+  background-image: url(../src/logo&icons/arrow-circle-left.png) !important;
+}
+
+.carousel-control-next-icon{
+  background-image: url(../src/logo&icons/arrow-circle-right.png) !important;
+}
+
+/* ---------------------------------BUTTON ALTERATION AND SPECIAL CHARACTERS CSS ARE HERE!!!!!----------------------- */
+
+.btn-dark{
+  background-color:rgb(62, 58, 58) !important;
+  padding:14px 35px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin: 0 auto;
+  border-radius: 4px !important;
+}
+
+.btn-dark:hover,.btn-trans:hover{
+  background-color: #f56036 !important;
+  border-color: #f56036 !important;
+}
+
+.btn-orange{
+  background-color: #fd7e14!important;
+  padding:14px 35px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin: 0 auto;
+  border-radius: 4px !important;
+  color: white !important;
+}
+
+.btn-trans{
+  background-color: transparent !important;
+  padding:14px 35px !important;
+  font-size: 16px !important;
+  color: #fff !important;
+  border-color: #fff !important;
+  margin-top: 15px;
+  border-radius: 4px !important;
+  font-weight: 500 !important;
+  border-width: 2px !important;
+}
+
+.topspace{
+  margin-top: 50px !important;
+}
+
+.floating{
+  float: left !important;
+}
+
+.floating-right{
+  float: right;
+}
+
+/*----------------------------------------- centered button */
+.centre-btn{
+  width:10%;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.showpets-btn{
+  background-color: rgb(62, 58, 58) !important;
+  padding:10px 30px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color:white !important;
+  margin-top:43px !important
+}
+
+.showpets-btn:hover{
+  background-color: #f56036 !important;
+  border-color: #f56036 !important;
+}
+
+.card:hover .showpets-btn{
+  margin-top: 5px !important;
+  transition: .4s ease;
+}
+
+/* -------------------------------------------------------- PRODUCT / BANNER   CSS   STARTS   HERE!!!!----------------- */
+
+.banner-layout{
+  width:90%;
+  float: right !important;
+}
+
+.left-space{
+  padding-left: 30px !important;
+}
+
+.lefts-space{
+  margin-left: 30px !important;
+}
+
+/* -----------------------BANNER IMAGES--------------------- */
+
+.banner-bgi1{
+  background-image: url(../src/images/banner-1.jpg);
+  background-repeat:no-repeat;
+  height:300px !important;
+  background-size:100% 100%;
+  display: flex !important;
+ 
+}
+
+.banner-bgi2{
+ background-image: url(../src/images/banner-2.jpg);
+ background-repeat:no-repeat;
+ height:300px !important;
+  background-size:100% 100%;
+ display: flex !important;
+}
+
+.banner-bgi3{
+  background-image: url(../src/images/banner-3.jpg);
+  background-repeat:no-repeat;
+  height:300px !important;
+  background-size:100% 100%;
+  display: flex !important;
+}
+
+.Banner-container{
+  width:80%;
+  position: relative;
+}
+
+.banner-layout-45{
+  width:95% !important;
+  float:right !important;
+  /* background-color: #f56036; */
+}
+
+.banner-bgi4{
+  background-image: url(../src/images/banner-4.jpg);
+  height:350px;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  margin-right: 20px !important;
+  border-radius: 4px !important;
+}
+
+.banner-bgi5{
+  background-image: url(../src/images/banner-5.jpg);
+  height: 350px;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  border-radius: 4px !important;
+}
+
+.banner-top{
+  margin-top: 100px !important;
+}
+
+.banner-txt1{
+  font-family:  'Luckiest Guy',sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  text-align: left;
+  padding-top: 50px;
+}
+
+.txt-white{
+  color:#fff !important;
+}
+
+.txt-orange{
+  color: #f56036 !important; 
+}
+
+.txt-black{
+  color: rgb(62, 58, 58);
+}
+
+.banner-txt2{
+  font-size: 18px;
+  color: #fff;
+  line-height: 29px;
+  text-align: left;
+}
+
+
+/* --------------------------------------------------------SHOWCAE PETS CSS   STARTS   HERE!!!!----------------- */
+
+.showpets-txt1{
+  font-size: 45px !important;
+  padding-top: 70px !important;
+}
+
+/* ------------------------------------------------------CARD CSS ARE HERE!!!!----------------------------------------------- */
+.card {
+  position: relative !important;
+  height: 400px !important;
+  overflow: hidden;
+  width:90% !important;
+  text-align: center;
+}
+
+.equal-spacing{
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.card-body{
+  padding-top: 25px;
+}
+
+.card-img-top {
+  opacity: 1;
+  height: auto !important;
+  transition: .5s ease !important;
+  backface-visibility: hidden !important;
+}
+
+.threediv {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .card-img-top {
+  opacity: 0.1;
+}
+
+.card:hover .threediv {
+  opacity: 1;
+}
+
+.firstdiv,.seconddiv,.finaldiv{
+  background-color: #fff;
+  border-top: 1px solid rgb(197, 195, 195);
+  border-bottom:1px solid rgb(197, 195, 195);
+  border-left: 1px solid rgb(197, 195, 195);
+  width:45px !important;
+  height:45px !important;
+  padding-top: 10px;
+}
+
+.finaldiv{
+  border-right: 1px solid rgb(197, 195, 195);  
+}
+
+.threediv .firstdiv:hover,.seconddiv:hover,.finaldiv:hover{
+  background-color:#f56036 !important;
+}
+
+.firstdiv:hover,.seconddiv:hover,.finaldiv:hover .hovering{
+  color:white !important
+}
+
+.card:hover .card-body{
+  margin:-50px !important;
+  transition: .5s ease;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}
+
+/*----------- CARD TEXT CSS ARE HERE!!!! -------------*/
+
+.card-txt1{
+  color: rgb(66, 64, 64);
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.holds{
+  width:90% !important;
+}
+
+.card:hover .holds{
+  width: 80%!important;
+}
+
+.card-txt1:hover{
+  color: #f56036;
+}
+
+.card-txt2{
+  font-size: 17px;
+  color:#f56036;
+  font-weight: bolder !important;
+  padding-top: 7px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* --------------CSS FOR TOOLTIP---------------- */
+
+.tooltip-inner {
+  background-color: #f56036 !important;
+  font-size: 16px !important;
+  padding-left: 7px !important;
+  padding-bottom:1px  !important;
+  padding-right: 7px !important;
+  padding-top: 0px  !important;
+  border-radius: 4px !important;
+}
+
+/* ----------------------------------------------------------------PET ACCESSORIES CSS ARE HERE!!!------------------------ */
+
+.inside{
+  float: left;
+  height: 450px;
+}
+
+.f-s{
+  font-size: 40px !important;
+  line-height: 40px;
+  padding-bottom: 25px;
+}
+
+.petaccess-txt1{
+  color: gray;
+  font-size: 17px;
+  line-height: 35px;
+  font-weight: 500 !important;
+}
+
+.petaccess-txt1:hover{
+  color: #f56036;
+  text-decoration: none;
+}
+
+.petfood-img{
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:100%;
+  height: 150px; 
+}
+
+.petfood-txt1{
+  color: rgb(43, 43, 43);
+  font-size: 14px !important;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.petfood-txt1:hover{
+  color:#f56036;
+}
+
+.petfood-txt2{
+  font-size: 16px;
+  color:#f56036;
+  font-weight: 600 !important;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -5px;
+}
+
+.petfood-img1{
+  background-image: url(../src/images/petfood-1.jpg);  
+}
+.petfood-img2{
+  background-image: url(../src/images/petfood-2.jpg);
+}
+.petfood-img3{
+  background-image: url(../src/images/petfood-3.jpg);
+}
+.petfood-img4{
+  background-image: url(../src/images/petfood-4.jpg);
+}
+.petfood-img5{
+  background-image: url(../src/images/petfood-5.jpg);
+}
+.petfood-img6{
+  background-image: url(../src/images/petfood-6.jpg);
+}
+
+.petfood-down{
+  padding-top: 50px;
+}
+
+.banner-bgi6{
+  background-image: url(../src/images/banner-6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.star-color{
+  color:gray;
+}
+
+.borderbottom-line{
+  border-bottom: 1px solid rgb(209, 207, 207) ;
+  margin:0 auto;
+  width:90%;
+  margin-top: -30px;
+  margin-bottom: 20px;
+
+}
+
+/*-------------------------------- OWL  CAROUSEL CSS ARE HERE!!!!------------------------------------- */
+
+.title  {  
+  margin-bottom: 20px;  
+  padding:20px  
+}  
+
+.img  {  
+  height: 260px;width:100%  
+}  
+
+.react-multiple-carousel__arrow{
+  top:20px;
+  min-width: 35px !important;
+  min-height: 35px !important;
+}
+
+.react-multi-carousel-dot button{
+  border-radius: 0% !important;
+  height:1px !important;
+  width:100px !important;
+  margin-right: 3px !important;
+}
+
+/*--------------------------------------------------- logos-------------------------------------- */
+
+
+.logo1,.logo2,.logo3,.logo4,.logo5,.logo6{
+  width:100% ;
+  height:150px !important;
+  background-repeat: no-repeat  ;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: .4;
+  margin-left:50px !important;
+}
+
+.logo1:hover,.logo2:hover,.logo3:hover,.logo4:hover,.logo5:hover,.logo6:hover{
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  opacity: unset !important;
+}
+
+.logo1{
+  background-image: url(../src/logo&icons/brand-1.png);
+}
+
+.logo2{
+  background-image: url(../src/logo&icons/brand-2.png);
+}
+
+.logo3{
+  background-image: url(../src/logo&icons/brand-3.png);
+}
+
+.logo4{
+  background-image: url(../src/logo&icons/brand-4.png);
+}
+
+.logo5{
+  background-image: url(../src/logo&icons/brand-5.png);
+}
+
+.logo6{
+  background-image: url(../src/logo&icons/brand-6.png);
+}
+
+/* --------------------------------------------OWL CAROUSEL------------------------------------------ */
+.title  {  
+  margin-bottom: 20px;  
+  padding:20px  
+}  
+
+.img{  
+  height: 260px;width:100%  
+}  
+
+/* ------------------------CART PAGE DESIGNING--------------------- */
+
+.cart-banner{
+  background-image: url(../src/images/RouteBanner.jpg);
+  background-repeat: no-repeat;
+  width:100%;
+  height:250px
+}
+.cart-head{
+  font-family:  'Luckiest Guy',sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #f56036;
+  text-align: center ;
+  padding-top: 50px;
+}
+.designing{
+  color:#fff;
+  background-color: #f56036;
+  border-radius: 50%;
+  padding:1px;
+  margin-left: -50px;
+}
+.move{
+  margin-left: -40px ;
+}
+.adjusting{
+  padding-left: 45px !important;
+}
+.bordering{
+  border: 1px grey solid;
+  margin:0 auto;
+  width:55% !important;
+  background-color: #fff;
+}
+.move-right{
+  margin-left: 25px !important;
+  margin-top: 20px;
+}
+.quantity-css{
+  width:100%;
+  height:50px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.bord{
+  border:1px solid gray;
+  border-right:0px ;
+  padding: 2px 10px 10px 10px
+}
+.borde{
+  border:1px solid gray;
+  padding: 2px 10px 10px 10px
+}
+.borders{
+  border: 1px solid gray;
+  border-left:0px;
+  padding: 2px 10px 10px 10px
+}
+.center-txt{
+  text-align: center;
+}
+
+/*----------------------------------------- Total CSS---------------------------------- */
+
+.total{
+  border: 1px solid  #f56036 !important;
+  margin-left: 50px;
+  width:20% !important;
+  background-color: #fff;
+  /* position: absolute; */
+  /* top:450px; */
+  /* right:150px; */
+  text-align: center;
+}
+
+/*--------------------------------------------Footer CSS STARTS HERE!!!!--------------------------------- */
+
+.footer1{
+  background-color:rgb(46, 44, 44) ;
+  padding-top: 120px;
+}
+
+.footer-txt1{
+  color:#fff;
+  font-family: 'Open sans',sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 500;
+  padding-top: 30px !important;
+  padding-bottom: 20px;
+}
+
+.footer-txt2{
+  color: rgb(170, 169, 169);
+  font-family: inherit;
+}
+
+.footer-txt2:hover{
+  color: #f56036;
+}
+
+.footer-adjust{
+  padding-left:0px;
+}
+
+.footer-adjust2{
+  padding-bottom:20px
+}
+
+.footer-icon{
+  color: rgb(170, 169, 169);
+  padding-top: 60px !important ;
+}
+.input-layout{
+  background-color: #f56036;
+  width:100%;
+  height:43px;
+  float:right;
+  border-radius: 4px;
+}
+
+.input{
+  width: 60%;
+  height:43px;
+  border-radius: 4px;
+  border: #f56036;
+ 
+}
+
+.input-layout-txt{
+  color:#fff;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+.footer-txt3{
+    color: rgb(170, 169, 169);
+    font-family: inherit;
+    margin-top: 10px;
+    
+}
+
+.border-line{
+  border-bottom: 1px rgb(70, 69, 69) solid;
+  padding-top: 100px;
+}
+
+.footer2{
+  padding-top: 50px;
+}
+
+.foot-icon{
+  margin-left: 10px;
+  width:20px;
+  height:20px
+}
+
+.foot-icon:hover{
+  color:#fd7e14;
+}
+
+.border-line-orange{
+  border-bottom: #f56036 5px solid;
+  padding-top: 40px;
+}
+
+/* --------------------------------------------SHOPPING PAGE CSS ARE HERE!!!------------------------------ */
+.shopPage-layout{
+  background-color: rgb(238,238,238);
+  width:23% !important;
+  border:  1px rgb(169,184,195) solid;
+  height:550px;
+}
+
+.border-line-shop{
+  border-top: 1px rgb(169,184,195) solid;
+  width:80%;
+  margin: 0 auto;
+  padding-bottom: 20px ;
+}
+
+.shopPage-txt1{
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600;
+}
+
+.shopPage-txt2{
+  padding-left: 10px;
+  font-size: 16px;
+  color:  rgb(70, 69, 69);
+  font-family: 'Open Sans', sans-serif !important;
+  padding-bottom: 20px;
+}
+
+.shopPage-txt2:hover{
+  color: #f56036;
+  cursor: pointer;
+}
+/* ----------------------------Login Page CSS ARE HERE!!!!---------------- */
+.Login-adjust{
+  margin: 0 !important;
+  padding: 0px 0px 0px 0px !important;
+}
+.Login-layout{
+  width:100% !important;
+  background-color: antiquewhite;
+}
+
+.Login-img{
+  background-image: url(../src//images/about-4.png);
+  height:400px;
+  width:100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/* Follow Us :BsFacebook,AiOutlineTwitter,AiFillGooglePlusCircle,AiOutlineInstagram,AiFillLinkedin,IoLogoPinterest  */
+
+/* --------------------------------SIGN IN CSS ARE HERE!!!!---------------------- */
+
+.Signin-layout{
+  width:100%;
+  margin: 0 auto;
+}
+
+.Sign-img{
+  background-image: url(./images/banner-4.jpg);
+  height:500px;
+  width:100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* Form CSS */
+
+.form-txt1{
+  color:#fff !important;
+}
+
+
+/* ------------------------------------ABOUT PAGE CSS ARE HERE!!!!--------------------------- */
+
+.about-txt1{
+  font-family:'Luckiest Guy',sans-serif ;
+  font-weight: 600px;
+  font-size: 32px;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  line-height: 25px;
+}
+
+.about-txt2{
+  font-family:' Open Sans', sans-serif;
+  font-size: 15px;
+  color: grey;
+  line-height: 25px;
+}
+
+.about-img{
+  background-size: contain;
+  height:600px;
+  background-repeat: no-repeat;
+}
+
+.about-img1{
+  background-image: url(../src/images/about-1.png);
+}
+
+.about-img2{
+  background-image: url(../src/images/about-2.png);
+}
+
+.about-txt3{
+  font-family:' Open Sans', sans-serif; 
+  font-size: 20px;
+}
+
+.about-footerline{
+  border-top: rgb(221, 218, 218) 1px solid;
+  padding-bottom: 50px;
+}
+
+/* --------------------------------------Modal CSS ARE HERE!!!!------------------------------------ */
+
+.modal-dialog { 
+  max-width: 45% !important;
+ }
+
+ /* -----------------------------------BLOGS CSS ARE HERE---------------------------- */
+ .carousel-indicators [data-bs-target]{
+  background-color: #fd7e14 !important;
+  visibility: hidden !important;
+}
+
+.blogs-container2-spacing{
+  padding-left: 50px !important;
+
+}
+
+.blogs-txt1{
+  font-size: 12px;
+  font-weight: bold !important;
+  font-family:'Open Sans', sans-serif;
+  color:grey ;
+  padding-top: 5px;
+  
+}
+.blogs-txt2{
+  color: black;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.blogs-borderbottom-line{
+  border-bottom: 1px rgb(213, 210, 210) solid;
+  padding-top: 20px;
+  width:100%;
+}
+
+.border-line-spacing{
+  margin-top: 10px;
+}
+.blog-icon{
+  color: #fd7e14;
+  padding-right:5px
+}
+
+/* filter css */
+
+.navlink{
+  margin: auto auto;
+  padding:10px;
+  align-items: center;
+  font-family:'Open Sans', sans-serif ;
+  color: black !important;
+}
+/* -------------------------------------SERVICE CSS ARE HERE!!!---------------------------  */
+
+.service-border{
+  border: 2px solid rgb(234, 231, 231);
+  margin-bottom: 70px;
+}
+
+.service-head{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.service-txt1{
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.service-txt2{
+  padding-left: 40px;
+  padding-right: 10px;
+  font-size: 16px;
+  color: rgb(133, 129, 129);
+}
+
+.service-txt3{
+  padding-left: 40px;
+  padding-bottom: 15px;
+}
+
+
+@media screen and (max-width: 991px){
+
+
+  /* -----------------------------------------------------NAVBAR */
+
+  .navbar{
+    background-color: black !important;
+  }
+
+  .drop{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+  }
+
+  .dropdown .dropdown-menu{
+    line-height: 2;
+    width:100%;
+    height: auto;
+  }
+
+  .dropdown-item{
+    display: none !important;
+  }
+  .nav-style{
+    color:#fd7e14 !important;
+  }
+
+  .blue{
+    display: inline-block !important;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .nav-style{
+    text-align: left !important;
+  }
+
+  .home-left{
+    padding-right:-50px !important;;
+  }
+
+ .icon-style{
+  display: flex !important;
+  flex-direction: column !important;
+ }
+  .responsive-navbar-nav{
+    overflow:visible !important;
+  }
+
+  .cart-bag{
+    color: #f56036 !important;
+  }
+
+  .fraud{
+    color: white;
+    top:-63px;
+    right:80px;
+    z-index: 10;
+  }
+
+
+  /*   --------------------------------------------------------carsouel */
+
+  .carousel-adj{
+   height:500px ;
+ }
+
+ .text-left{
+  height:350px;
+  width:55%;
+  float: left !important;
+  margin-top: 50px;
+}
+
+.carousel-txt2{
+  font-size: 60px !important;
+  padding-top:50px !important ;
+}
+
+.carousel-txt3{
+  font-size: 60px !important;
+  padding-top: 10px !important;
+}
+
+.carousel-txt4{
+  display:none;
+}
+
+/* --------------------------------------------------------------------------BANNER */
+
+
+
+.banner-txt1{
+  font-size: 30px;
+}
+
+.banner-txt2{
+  display: none;
+}
+
+
+/*------------------------------------------------------------------------------- Card css */
+
+.card{
+  height:380px !important;
+  width:210px !important;
+}
+
+
+/* model */
+
+.modal-dialog { 
+  max-width: 90% !important;
+ }
+
+/* pet food */
+
+.borderbottom-line{
+    margin-top: 20px !important;
+}
+/* shopping page css */
+
+.shopPage-layout{
+  width:70% !important;
+  height:450px;
+}
+}
+
+
+
+
+
+
+@media (min-width: 992px){
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content:space-between !important;
+  }
+
+  .navbar-expand-lg .navbar-toggler {
+    /* display: none; */
+    display: unset;
+}
+
+}
+
+
+/* 
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: !important;
+} */
